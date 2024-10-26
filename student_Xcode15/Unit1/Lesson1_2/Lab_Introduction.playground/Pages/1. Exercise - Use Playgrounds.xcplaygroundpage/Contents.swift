@@ -10,14 +10,13 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
-
+print("One Of My Favorite Songs: The Zepher Song | Red Hot Chili Peppers")
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print("Can i get your hand to write on")
+print("Just a pieve of leg to bite on")
+print("What a night to fly my kite on")
 /*:
 
  _Copyright © 2023 Apple Inc._
