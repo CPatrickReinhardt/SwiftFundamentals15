@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06A5B2CE-4F9A-4459-8E42-CC0442BEE9A2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABA37A67-6712-4D6D-A131-030155F673E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstTimeDebugging/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "ABA37A67-6712-4D6D-A131-030155F673E2 - 770e7db924fd273c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.__allocating_init() -&gt; FirstTimeDebugging.AppDelegate"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "ABA37A67-6712-4D6D-A131-030155F673E2 - c53f6301456d20d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.init() -&gt; FirstTimeDebugging.AppDelegate"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "ABA37A67-6712-4D6D-A131-030155F673E2 - 898d3ead9c13adcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.__deallocating_deinit"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "ABA37A67-6712-4D6D-A131-030155F673E2 - ce235baba10d1f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D153465D-744F-4A80-BADF-F61723C8BE94"
+            shouldBeEnabled = "No"
+            nameForDebugger = "first"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstTimeDebugging/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "D153465D-744F-4A80-BADF-F61723C8BE94 - 770e7db924fd273c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.__allocating_init() -&gt; FirstTimeDebugging.AppDelegate"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "D153465D-744F-4A80-BADF-F61723C8BE94 - c53f6301456d20d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.init() -&gt; FirstTimeDebugging.AppDelegate"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "D153465D-744F-4A80-BADF-F61723C8BE94 - 898d3ead9c13adcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.__deallocating_deinit"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "D153465D-744F-4A80-BADF-F61723C8BE94 - ce235baba10d1f50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "D153465D-744F-4A80-BADF-F61723C8BE94 - 1edd4281c7335e14"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstTimeDebugging.AppDelegate.init() -&gt; FirstTimeDebugging.AppDelegate"
+                  moduleName = "FirstTimeDebugging"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/remotestudent/Documents/GitHub/SwiftFundamentals15/student_Xcode15/Unit1/Lesson1_7/lab/FirstTimeDebugging/FirstTimeDebugging/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
