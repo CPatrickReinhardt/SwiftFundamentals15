@@ -51,7 +51,7 @@ class Fighter: Spaceship {
 class ShieldedShip: Fighter {
     var shieldStrength: Int
 
-    override init(name: String, health: Int, position: Int, weapon: String, remainingFirePower: Int) {
+    init(name: String, health: Int, position: Int, weapon: String, remainingFirePower: Int, shieldStrength: Int){
         self.shieldStrength = shieldStrength
         super.init(name: name, health: health, position: position, weapon: weapon, remainingFirePower: remainingFirePower)
     }
@@ -76,18 +76,24 @@ let falcon = Spaceship(name: "Falcon", health: 100, position: 0)
 
  Then create an instance of `Fighter` below called `destroyer`. Use the memberwise initializer you just created. The ship's name should be "Destroyer."
  */
-let destroyer = Spaceship(name: "Destroyer", health: 100, position: 1)
+let destroyer = Fighter(name: "Destroyer", health: 100, position: 1, weapon: "Laser",remainingFirePower: 10)
 
 /*:
  Now go add an initializer to `ShieldedShip` that takes an argument for each property on `ShieldedShip`, `Fighter`, and `Spaceship`, and sets the properties accordingly. Remember that you can call through to the initializer on `Fighter` using `super.init`.
 
  Then create an instance of `ShieldedShip` below called `defender`. Use the memberwise initializer you just created. The ship's name should be "Defender."
  */
-
+let defender = ShieldedShip(name: "Defender", health: 100, position: 2, weapon: "LaserCannon", remainingFirePower: 5, shieldStrength: 100)
 
 //:  Create a new constant named `sameShip` and set it equal to `falcon`. Print out the position of `sameShip` and `falcon`, then call `moveLeft()` on `sameShip` and print out the position of `sameShip` and `falcon` again. Did both positions change? Why? If both were structs instead of classes, would it be the same? Why or why not? Provide your answer in a comment or print statement below.
+let sameShip = falcon
+print("position of Falcon: \(falcon.position)")
+print("position of sameShip: \(sameShip.position)")
+sameShip.moveLeft()
+print("position of Falcon: \(falcon.position)")
+print("position of sameShip: \(sameShip.position)")
 
-
+// just like an array thats referencing the same location in memory this sameShip class is referenceing the same instance of the Spaceship in memory. So if you change one is changes the other because they are pointing at the same thing. 
 /*:
  _Copyright © 2023 Apple Inc._
 
