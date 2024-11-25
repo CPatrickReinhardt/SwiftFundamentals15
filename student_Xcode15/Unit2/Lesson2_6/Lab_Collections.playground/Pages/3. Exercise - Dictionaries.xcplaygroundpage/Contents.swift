@@ -27,7 +27,7 @@ var colorsArray = ["Red", "Green", "Blue"]
 
 let resultingDictionary: [String: [String]] = [
     "Shapes": shapesArray,
-    "colors": colorsArray
+    "Colors": colorsArray
 ]
 
 print(resultingDictionary)
