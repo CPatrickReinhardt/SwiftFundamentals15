@@ -12,8 +12,8 @@ for activity in movements {
 
 //:  Now suppose your app uses a dictionary to keep track of your average heart rate during each of the movements in `movements`. The keys correspond to the movements listed above, and the values correspond to the average heart rate that your fitness tracker has monitored during the given movement. Loop through `movementHeartRates` below, printing statements telling the user his/her average heart rate during each exercise.
 var movementHeartRates: [String: Int] = ["Walking": 85, "Running": 120, "Swimming": 130, "Cycling": 128, "Skiing": 114, "Climbing": 129]
-for i in movementHeartRates {
-    print(i)
+for (movement, heartrate) in movementHeartRates {
+    print("Your average heart rate during \(movement) is \(heartrate) bpm")
 }
 
 /*:
