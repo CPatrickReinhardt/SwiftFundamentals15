@@ -93,7 +93,7 @@ sameShip.moveLeft()
 print("position of Falcon: \(falcon.position)")
 print("position of sameShip: \(sameShip.position)")
 
-// just like an array thats referencing the same location in memory this sameShip class is referenceing the same instance of the Spaceship in memory. So if you change one is changes the other because they are pointing at the same thing. 
+// just like an array thats referencing the same location in memory this sameShip class is referenceing the same instance of the Spaceship in memory. So if you change one is changes the other because they are pointing at the same object.
 /*:
  _Copyright © 2023 Apple Inc._
 
